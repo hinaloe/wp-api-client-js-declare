@@ -60,52 +60,52 @@ declare module WP_API {
 
 
         class User extends WPApiBaseModel {
-            defaults: WPApi.User;//??
+            defaults(): () => WPApi.User;//??
         }
 
         class Taxonomy extends WPApiBaseModel {
-            defaults: WPApi.Taxonomy;
+            defaults(): () => WPApi.Taxonomy;
         }
 
         class Term extends WPApiBaseModel {
-            defaults: WPApi.Term;
+            defaults(): () => WPApi.Term;
         }
 
         class Post extends WPApiBaseModel {
-            defaults: WPApi.Post;
+            defaults(): () => WPApi.Post;
         }
 
         class Page extends WPApiBaseModel {
-            defaults: WPApi.Page;
+            defaults(): () => WPApi.Page;
         }
 
         class PostRevision extends WPApiBaseModel {
-            defaults: WPApi.PostRevisions;
+            defaults(): () => WPApi.PostRevisions;
             url: () => string
         }
 
         class Media extends WPApiBaseModel {
-            defaults: WPApi.Media;
+            defaults(): () => WPApi.Media;
         }
 
         class Comment extends WPApiBaseModel {
-            defaults: WPApi.Comment;
+            defaults(): () => WPApi.Comment;
         }
 
         class PostType extends WPApiBaseModel {
-            defaults: WPApi.Type;
+            defaults(): () => WPApi.Type;
             save(): boolean;
             destroy(): boolean;
         }
 
         class PostStatus extends WPApiBaseModel {
-            defaults: PostStatus;
+            defaults(): () => PostStatus;
             save(): boolean;
             destroy(): boolean;
         }
 
         class Schema extends WPApiBaseModel {
-            defaults: any;
+            defaults(): () => any;
             save(): boolean;
             destroy(): boolean;
         }
