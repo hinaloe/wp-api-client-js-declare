@@ -1,0 +1,11 @@
+{
+  "name": "wp-api-client-js",
+  "files": "typings/browser.d.ts",
+  "ambientDependencies": {
+    "backbone": "github:DefinitelyTyped/DefinitelyTyped/backbone/backbone.d.ts#dc9dabe74a5be62613b17a3605309783a12ff28a",
+    "backbone-global": "github:DefinitelyTyped/DefinitelyTyped/backbone/backbone-global.d.ts#dc9dabe74a5be62613b17a3605309783a12ff28a",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#dc9dabe74a5be62613b17a3605309783a12ff28a",
+    "underscore": "github:DefinitelyTyped/DefinitelyTyped/underscore/underscore.d.ts#dc9dabe74a5be62613b17a3605309783a12ff28a",
+    "wp-api": "github:hinaloe/wp-rest-api-tsc-declare#e8fc7b0923c02e2c246379ff7c4107343f716bf9"
+  }
+}

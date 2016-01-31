@@ -1,4 +1,4 @@
-/// <reference path="typings/tsd.d.ts" />
+/// <reference path="typings/browser.d.ts" />
 
 /**
  * WP-API client-js (https://github.com/WP-API/client-js) for TypeScript
@@ -165,4 +165,3 @@ declare interface Date {
 }
 
 declare var wp: WP_API.WP;
-

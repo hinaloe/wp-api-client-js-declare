@@ -1,3 +1,0 @@
-[submodule "typings/wp-api"]
-	path = typings/wp-api
-	url = git@github.com:hinaloe/wp-rest-api-tsc-declare.git
